@@ -1,0 +1,42 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  width: 97%;
+  padding: 20px;
+  border-radius: 6px;
+  background: #fff;
+  box-shadow: 0 0 20px 0 #095484;
+}
+
+input {
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  width: 40%;
+  padding: 5px;
+}
+
+button {
+  width: 120px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background: #095484;
+  font-size: 16px;
+  color: #fff;
+  cursor: pointer;
+}
+button:hover {
+  background: #0666a3;
+}
+.last-guess {
+  margin: 4px;
+}
+.status {
+  margin-bottom: 4px;
+}
+
+.config{
+  display: flex;
+  flex-direction: column;
+}
